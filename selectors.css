@@ -1,0 +1,54 @@
+
+header{
+    border: 1px solid goldenrod;
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.disabled  {
+    color: grey;
+}
+a {
+    color: purple;
+}
+.active {
+    color: yellow;
+}
+.parent div:nth-child(1) {
+    color:red
+}
+.parent div:nth-child(3) {
+    color: green
+}
+.parent h4:nth-child(4) {
+   background-color: blue;
+}
+.parent h4:nth-child(2) {
+    background-color: red;
+ }
+ .grandparent h4{
+   border: 1px solid goldenrod;
+   border-radius: 2em;
+ }
+ .promo {
+    font-weight: bold;
+    color: goldenrod;
+ }
+ input [type="text"] {
+     height: 25px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
